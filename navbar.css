@@ -1,0 +1,37 @@
+/* Navbar Styles */
+.navbar {
+  transition: background-color 0.3s ease;
+  padding: 15px 0;
+}
+
+.navbar-light {
+  background-color: #f8f9fa !important;
+}
+
+.navbar-dark {
+  background-color: #212529 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-light .nav-link {
+  color: #000 !important;
+}
+
+.navbar-dark .nav-link {
+  color: #fff !important;
+}
+
+#modeToggle {
+  border-radius: 20px;
+  font-size: 0.85rem;
+  padding: 5px 12px;
+}

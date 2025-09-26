@@ -1,0 +1,59 @@
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #f0f0f0, #ffffff);
+  color: #333;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.hero .highlight {
+  color: #0d6efd;
+}
+
+/* Button default (light mode) */
+#workBtn {
+  background-color: #0d6efd;
+  border: none;
+  transition: 0.3s;
+}
+
+#workBtn:hover {
+  background-color: #084298;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Hero dark mode */
+body.dark-mode .hero {
+  background: linear-gradient(to right, #1a1a1a, #121212);
+  color: #f1f1f1;
+}
+
+body.dark-mode .hero .highlight {
+  color: #66b2ff;
+}
+
+/* Button dark mode */
+body.dark-mode #workBtn {
+  background-color: #66b2ff;
+  color: #000;
+}
+
+body.dark-mode #workBtn:hover {
+  background-color: #3399ff;
+  color: #fff;
+}
